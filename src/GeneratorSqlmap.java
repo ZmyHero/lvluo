@@ -13,6 +13,8 @@ public class GeneratorSqlmap {
 
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
+        
+        
         File configFile = new File("generatorConfig.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
